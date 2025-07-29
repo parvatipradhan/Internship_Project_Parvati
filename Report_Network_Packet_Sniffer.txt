@@ -1,0 +1,22 @@
+
+Network Packet Sniffer with Alert System
+
+Introduction:
+This project captures and analyzes network packets in real-time to identify potential intrusions.
+
+Abstract:
+Using Python and Scapy, the system listens to incoming/outgoing network packets. It logs details into an SQLite database and detects basic anomalies like frequent requests from a single source.
+
+Tools Used:
+- Python
+- Scapy
+- SQLite
+
+Steps Involved:
+1. Set up a SQLite database to store packet metadata.
+2. Use Scapy to sniff network packets.
+3. Extract IP, port, and protocol info.
+4. Store the data and print real-time results.
+
+Conclusion:
+This project helps in understanding how packet monitoring works and builds the foundation for intrusion detection.
